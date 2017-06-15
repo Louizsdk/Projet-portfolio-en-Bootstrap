@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/*font-family: 'Raleway', sans-serif;*/
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-custom {
+    background-color: blue;
+    color: #0e0e0e;
+}
+
+.separator {
+    height: 3px;
+    width: 5px;
+    border: none;
+    box-shadow: none;
+    background-color: #fff6c6;
+}
+
+
+/* header */
+
+.header {
+    background-color: #EFEA9E;
+    height: 70px;
+    line-height: 70px;
+
+}
+
+.logo {
+    color: #0e0e0e;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+
+}
+
+.menu a {
+    color: #0e0e0e;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: ;
+}
+
+
+/* banniere */
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+    background-color: #EFEA9E;
+    color: #0e0e0e;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #21EFD4;
+}
+
+
+/* about */
+
+#about {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    background: #eeeeee;
+    height: 800px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height: 200px;
+    background-color: #EFEA9E;
+}
+
+
+/* contact */
+
+.footer {
+    background-color: #310208;
+    height: 600px;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+.formulaireContact {
+    width: 500%;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 500px;
+    border: none;
+}
+
+input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: vertical;
+}
